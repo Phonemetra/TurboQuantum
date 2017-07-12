@@ -16,3 +16,7 @@
 
 import sys
 import os
+
+from qiskit import QuantumProgram
+
+class TurboAI(object):
