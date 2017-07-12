@@ -1,2 +1,2 @@
 # TurboQuantum™
-Turbo AI - IBM Q Experience
+Turbo AI (Artificial Intelligence) - IBM Q experience
