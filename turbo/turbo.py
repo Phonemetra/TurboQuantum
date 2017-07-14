@@ -17,7 +17,7 @@
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../'))
 from qiskit import QuantumProgram
 
 # We need the environment variable for Travis.
