@@ -19,5 +19,6 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from qiskit import QuantumProgram
+import Qconfig
 
 class TurboAI(object):
