@@ -19,6 +19,20 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from qiskit import QuantumProgram
-import Qconfig
+
+# We need the environment variable for Travis.
+try:
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+    import Qconfig
+    API_TOKEN = Qconfig.APItoken
+    URL = Qconfig.config["url"]
+except ImportError:
+    API_TOKEN = os.environ["QE_TOKEN"]
+    URL = os.environ["QE_URL"]
+
 
 class TurboAI(object):
+  def setup_api(self):
+        QP_program = QuantumProgram()
+        result = QP_program.set_api(API_TOKEN, URL)
+  self.assertTrue(result)
