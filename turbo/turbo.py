@@ -36,3 +36,11 @@ class TurboAI(object):
         QP_program = QuantumProgram()
         result = QP_program.set_api(API_TOKEN, URL)
   self.assertTrue(result)
+
+  def main():
+        
+        
+        if __name__ == '__main__':
+main()
+        
+        
