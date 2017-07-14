@@ -28,4 +28,4 @@ install:
   - make env-dev
 
 script:
-make turbo
+  make turbo
