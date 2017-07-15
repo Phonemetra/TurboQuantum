@@ -35,7 +35,10 @@ class TurboAI(object):
     def setup_api(self):
         QP_program = QuantumProgram()
         result = QP_program.set_api(API_TOKEN, URL)
-        self.assertTrue(result)
+        print('setup_api:' + result))
+        return result
+        
+        
 
     def main():
          
