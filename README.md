@@ -3,7 +3,7 @@
 <p align="center">Turbo AI™ (Artificial Intelligence) - IBM Q experience</p>
 
 [![Build Status](https://travis-ci.org/Phonemetra/TurboQuantum.svg?branch=master)](https://travis-ci.org/Phonemetra/TurboQuantum)
-
+[![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Phonemetra/TurboQuantum/master/LICENSE)
 ## License
 
     Copyright 2017 PHONEMETRA 
