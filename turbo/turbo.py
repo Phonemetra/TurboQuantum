@@ -32,14 +32,13 @@ except ImportError:
 
 
 class TurboAI(object):
-  def setup_api(self):
+    def setup_api(self):
         QP_program = QuantumProgram()
         result = QP_program.set_api(API_TOKEN, URL)
-  self.assertTrue(result)
+        self.assertTrue(result)
 
-  def main():
-        
-        
+    def main():
+         
         if __name__ == '__main__': 
             main()
         
