@@ -33,8 +33,6 @@ except ImportError:
 
 class TurboAI(object):
     
-    def conscience(self):
-  
     def main():
         
         qp = QuantumProgram()
@@ -43,8 +41,7 @@ class TurboAI(object):
             print("Error setting API")
             sys.exit(1)
             
-        self.conscience()   
-            
+       
         if __name__ == '__main__': 
             main()
         
