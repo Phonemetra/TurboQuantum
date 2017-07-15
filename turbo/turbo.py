@@ -31,7 +31,7 @@ except ImportError:
     URL = os.environ["QE_URL"]
 
 
-class TurboAI(object):
+class TurboQuantum(object):
     
     def main():
         
